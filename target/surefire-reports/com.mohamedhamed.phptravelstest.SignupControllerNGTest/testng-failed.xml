@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mohamedhamed.phptravelstest.SignupControllerNGTest]">
+  <test name="Command line test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.mohamedhamed.phptravelstest.SignupControllerNGTest">
+        <methods>
+          <include name="setupEnviromnent"/>
+          <include name="recieveVerificationEmailTest"/>
+          <include name="signUpPageTest" invocation-numbers="0"/>
+          <include name="releaseEnvironment"/>
+        </methods>
+      </class> <!-- com.mohamedhamed.phptravelstest.SignupControllerNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.mohamedhamed.phptravelstest.SignupControllerNGTest] -->
